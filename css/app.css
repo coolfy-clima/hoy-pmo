@@ -37,3 +37,4 @@ nav.tabs button[aria-current=page]{color:var(--ac);border-top-color:var(--ac)}
 .hoja h2{font-size:1.1rem;flex:1;overflow-wrap:anywhere}.hoja .cuerpo{flex:1;overflow-y:auto;padding:14px 16px 28px;display:flex;flex-direction:column;gap:10px}
 @media (min-width:760px){main>*,.hoja .cuerpo>*{width:100%;max-width:620px;margin-left:auto;margin-right:auto}.top>*{width:100%;max-width:620px;margin:0 auto}}
 @media (min-width:760px){main>.exp{margin-left:auto;margin-right:auto}}
+h1 .logo{height:26px;vertical-align:middle;margin-right:8px}
