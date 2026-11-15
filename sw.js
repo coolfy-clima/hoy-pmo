@@ -3,11 +3,11 @@
  * Cualquier otra petición (datos, identidad, otros dominios) va directa a la red y NUNCA se guarda.
  * No guarda respuestas con credenciales ni peticiones que no sean GET.
  */
-var VERSION = "hoyobras-shell-demo1";
+var VERSION = "coolfyapp-shell-demo2";
 var SHELL = [
   "./", "./index.html", "./css/app.css", "./manifest.webmanifest",
   "./js/app.js", "./js/data/contract.js", "./js/data/demo.js", "./js/data/servidor.js",
-  "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-192.png", "./icons/icon-maskable-512.png"
+  "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable-192.png", "./icons/icon-maskable-512.png", "./icons/logo-coolfy.png"
 ];
 var SHELL_URLS = SHELL.map(function (p) { return new URL(p, self.registration.scope).href; });
 
